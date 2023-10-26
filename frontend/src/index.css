@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #0E0F10;
+    color: #CCE2F3;
+}
+
+@layer components{
+    .input-form{
+        @apply block p-3 rounded-md w-full mb-3 bg-zinc-700 
+    }
+}
